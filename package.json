@@ -1,0 +1,38 @@
+{
+  "name": "waqar_quiz",
+  "version": "1.0.0",
+  "description": "CLI Quiz TYPESCRIPT",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "quiz": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Waqar Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.2",
+    "@types/figlet": "^1.5.7",
+    "@types/gradient-string": "^1.1.4",
+    "@types/inquirer": "^9.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqaraslam1997/quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waqaraslam1997/quiz/issues"
+  },
+  "homepage": "https://github.com/waqaraslam1997/quiz#readme"
+}
